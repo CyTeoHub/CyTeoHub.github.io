@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.time{
+    position:fixed;
+    top:0;
+    right:0;
+    padding:20px;
+    text-align: right;
+}
+
+#current-time:hover{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+}
+
+header h1{
+    padding:50px;
+    font-size: 5em;
+    margin-top: 10%;
+}
+header h1:hover{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+header{
+    text-align: center;
+    height:500px;
+}
+
+.catalogueBtn{
+    padding:20px;
+    width:200px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border-radius: 5%;
+    font-weight: 700;
+}
+.catalogueBtn:hover{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    font-weight: 900;
+}
+
+#catalog{
+    margin-top: 20%;
+    height:600px;
+    text-align: center;
+    color:white;
+    
+}
+#catalog h2{
+    font-size: 4rem;
+    text-shadow: 2px 2px black;
+    padding:10px;
+}
+.cat-item{
+    background-color: #301E67;
+    padding:20px;
+    color:white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.cat-item:hover{
+    background-color: #0E8388;
+}
+.container {
+    display: flex;
+    gap: 10px; /* Set the desired margin value */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:97%;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    right:0;
+    padding:10px;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    right:0;
+    padding:10px;
+}
+
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: fixed; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 15px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#mySidenavRight a{
+    position: fixed; /* Position them relative to the browser window */
+    right: -120px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 130px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 15px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 5px 0 0 5px; /* Rounded corners on the top right and bottom right side */
+    text-align: right;
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+#mySidenavRight a:hover{
+    right:0;
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);
+}
+
+#blog {
+  top: 80px;
+  background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+}
+
+#projects {
+  top: 140px;
+  background-image: linear-gradient( 135deg, #FF7AF5 10%, #513162 100%);
+}
+
+#contact {
+  top: 200px;
+  background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+}
+
+#right1{
+    top: 200px;
+    background-image: linear-gradient( 135deg, #FFF5C3 10%, #9452A5 100%);
+}
+#right2{
+    top: 260px;
+    background-image: linear-gradient( 135deg, #FFF886 10%, #F072B6 100%);
+}
+#right3{
+    top: 320px;
+    background-image: linear-gradient( 135deg, #FF6FD8 10%, #3813C2 100%);
+}
+#right4{
+    top: 380px;
+    background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);
+}
+
+/*************************************** PAGES ***************************************/
+
+/* ---------- General ---------- */
+.page-title{
+    padding:10px;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px beige;
+}
+
+.section-container{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width:200px;
+    height:210px;
+    background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    
+  }
+  .btn:hover{
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+  }
