@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyTeo Tech Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
 </head>
@@ -18,10 +20,126 @@
     <header id="head">
         
         <h1>CyTeo Hub</h1>
-        <br>
         <a href="#catalog" class="catalogueBtn">
-        Browse Catalogue
+            <img src="https://img.icons8.com/3d-plastilina/30/null/search--v2.png"/>
+            Browse Catalogue
         </a>
+    <div class="modal-containers">
+            <!-- Button trigger modal -->
+
+                <button type="button" class="btn btn-primary btnModals" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <img src="https://img.icons8.com/3d-fluency/30/null/note.png"/>
+                    Todo List
+                </button>
+    
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog  modal-xl">
+                        <div class="modal-content">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-body">
+                                    <iframe src="https://app.any.do/myday" class="iframes"></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+
+            <button type="button" class="btn btn-primary btnModals" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                <img src="https://img.icons8.com/stickers/30/null/china.png"/>
+                黄历
+            </button>
+    
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog  modal-xl">
+                        <div class="modal-content">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-body">
+                                    <iframe src="http://astro.sina.com.cn/hdrl/index.d.html" class="iframes"></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+
+            <button type="button" class="btn btn-primary btnModals" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                <img src="https://img.icons8.com/stickers/30/null/tear-off-calendar.png"/>
+                Calendar
+            </button>
+    
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog  modal-xl">
+                        <div class="modal-content">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-body">
+                                    <iframe src="https://time.is/calendar" class="iframes"></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+
+            <button type="button" class="btn btn-primary btnModals" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                <img src="https://img.icons8.com/dotty/40/EBEBEB/apple-app-store.png"/>
+            </button>
+    
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog  modal-lg">
+                        <div class="modal-content">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-body apps">
+                                
+                                   <a href="https://www.youtube.com/" target="_blank" >
+                                    <img class="app-link" src="https://img.icons8.com/stickers/80/null/youtube-play.png"/>
+                                   </a>
+                                   
+                                   <a href="https://studio.youtube.com/channel/UCY5DVWzxi_jmPE9tF9qCxRw" target="_blank" >
+                                    <img class="app-link" src="https://img.icons8.com/matisse/70/null/experimental-youtube-studio-matisse.png"/>
+                                   </a>
+
+                                   <a href="https://github.com/" target="_blank" >
+                                    <img class="app-link" src="https://img.icons8.com/stickers/80/null/github.png"/>
+                                   </a>
+
+                                   <a href="https://id.atlassian.com/login?application=bitbucket&continue=https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%252F%26redirectCount%3D1" target="_blank" >
+                                    <img class="app-link" src="https://img.icons8.com/color/80/null/bitbucket.png"/>
+                                   </a>
+
+                                   <a href="https://bigsky.benilde.edu.ph/" target="_blank" >
+                                    <img class="app-link" src="https://img.icons8.com/stickers/80/null/school-building.png"/>
+                                   </a>
+
+                                   <a href="" target="_blank" >
+                                    <img class="app-link" src=""/>
+                                   </a>
+
+                                   <a href="" target="_blank" >
+                                    <img class="app-link" src=""/>
+                                   </a>
+
+                                   <a href="" target="_blank" >
+                                    <img class="app-link" src=""/>
+                                   </a>
+                                
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+
+
+    </div><!--container-->
     </header>
 
     <div id="mySidenav" class="sidenav">
@@ -44,41 +162,42 @@
     <br>
     <a href="./page1.html" class="animsition-link">
       
-        <p class="cat-item"><img src="https://img.icons8.com/ios/50/FFFFFF/graduation-scroll.png"/>
+        <p class="cat-item">
+            <img src="https://img.icons8.com/stickers/50/null/graduation-scroll.png"/>
             Academic</p>
     </a>
 
     <a href="./developer.html" class="animsition-link">
         <p class="cat-item">
-            <img src="https://img.icons8.com/ios-filled/50/FFFFFF/developer.png"/>
+            <img src="https://img.icons8.com/external-soft-fill-juicy-fish/50/null/external-developer-web-developer-soft-fill-soft-fill-juicy-fish-3.png"/>
             Developer</p>
     </a>
 
     <a href="./socialmedia.html" class="animsition-link">
         <p class="cat-item">
-            <img src="https://img.icons8.com/external-bearicons-glyph-bearicons/50/FFFFFF/external-Social-podcast-bearicons-glyph-bearicons.png"/>
+            <img src="https://img.icons8.com/stickers/50/null/frame-rate.png"/>
         Social Media</p>
     </a>
 
     <a href="./productivity.html" class="animsition-link">
         <p class="cat-item">
-            <img src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/50/FFFFFF/external-productivity-organization-management-parzival-1997-detailed-outline-parzival-1997.png"/>
+            <img src="https://img.icons8.com/stickers/50/null/illustrator.png"/>
         Productivity</p>
     </a>
 <br>
-    <a href=""class="animsition-link">
+    <a href="./chinaweb.html" class="animsition-link">
         <p class="cat-item">
-            <img src="https://img.icons8.com/carbon-copy/50/FFFFFF/china.png"/>
+            <img src="https://img.icons8.com/stickers/50/null/china.png"/>
         China Web</p>
     </a>
     <a href=""class="animsition-link">
         <p class="cat-item">
-            <img src="https://img.icons8.com/ios-glyphs/50/FFFFFF/group.png"/>
+            <img src="https://img.icons8.com/stickers/50/null/people-working-together.png"/>
         Community</p>
     </a>
     <a href=""class="animsition-link">
         <p class="cat-item">
-          <img src="https://img.icons8.com/ios-filled/50/FFFFFF/maintenance.png"/>
+            <img src="https://img.icons8.com/external-justicon-flat-justicon/49/null/external-tools-education-justicon-flat-justicon-1.png"/>
         Tools</p>
     </a>
 
@@ -92,6 +211,12 @@
         <p class="cat-item">
             <img src="https://img.icons8.com/stickers/50/null/technology.png"/>
         Tech</p>
+    </a>
+
+    <a href=""class="animsition-link">
+        <p class="cat-item">
+            <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/50/null/external-resources-3d-printing-flaticons-flat-flat-icons-2.png"/>
+        Resources</p>
     </a>
 
     </div>

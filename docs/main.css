@@ -11,7 +11,27 @@ body{
     
 
 }
+*{
+  user-select: none;
+}
+.btnModals{
+  margin-top: 5%;
+}
+.btn-close{
+  padding:15px;
+  
+}
+.apps{
 
+}
+.app-link:hover{
+border-bottom: 3px solid black;
+}
+.iframes{
+  width:1100px;
+  height:800px;
+  border:none;
+}
 body::-webkit-scrollbar {
     display: none;
 }
@@ -26,6 +46,7 @@ a{
     right:0;
     padding:20px;
     text-align: right;
+    user-select: none;
 }
 
 #current-time:hover{
@@ -38,6 +59,7 @@ header h1{
     padding:50px;
     font-size: 5em;
     margin-top: 10%;
+    user-select: none;
 }
 header h1:hover{
   -webkit-background-clip: text;
@@ -71,14 +93,14 @@ header{
 #catalog h2{
     font-size: 4rem;
     text-shadow: 2px 2px black;
-    padding:10px;
+    padding:50px;
 }
 .cat-item{
     background-color: #301E67;
-    padding:20px;
+    padding:15px;
     color:white;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .cat-item:hover{
     background-color: #0E8388;
@@ -112,7 +134,7 @@ footer{
   left: -120px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
-  width: 130px; /* Set a specific width */
+  width: 150px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
   font-size: 15px; /* Increase font size */
   color: white; /* White text color */
@@ -181,7 +203,7 @@ footer{
 
 /* ---------- General ---------- */
 .page-title{
-    padding:10px;
+    padding:30px;
     text-align: center;
     font-size: 3rem;
     text-shadow: 3px 3px beige;
