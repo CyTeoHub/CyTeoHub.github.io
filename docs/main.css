@@ -27,6 +27,11 @@ body{
 .app-link:hover{
 border-bottom: 3px solid black;
 }
+.img-link{
+  width:50px;
+  height:50px;
+  border-radius: 5px;
+}
 .iframes{
   width:1100px;
   height:800px;
