@@ -257,11 +257,25 @@ font-weight: 800;
 .glass-content::-webkit-scrollbar {
   display: none;
 }
+
+.sub-links{
+  display: flex;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  padding:50px;
+}
+.sub-links a{
+  color:#F0FFFF;
+}
+.sub-links a:hover{
+  border-bottom: 1px solid #2F4F4F;
+}
 /*************************************** PAGES ***************************************/
 
 /* ---------- General ---------- */
 .page-title{
-    padding:30px;
+    padding:20px;
     text-align: center;
     font-size: 3rem;
     text-shadow: 3px 3px beige;
