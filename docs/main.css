@@ -43,6 +43,7 @@ body::-webkit-scrollbar {
 
 a{
     text-decoration: none;
+    color:black;
 }
 
 .time{
@@ -211,6 +212,47 @@ footer{
     background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);
 }
 
+.otherSites{
+  margin-top: 10%;
+  height:600px;
+  text-align: center;
+}
+.otherSites h1{
+  padding:10px;
+}
+.otherSites .row{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+}
+.glassCases{
+    /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height:400px;
+  width:200px;
+}
+.glassCases h3{
+padding:15px;
+font-size: 18px;
+font-weight: 800;
+}
+
+.glassCases::-webkit-scrollbar {
+  display: none;
+}
+.glass-content{
+  overflow-y: scroll;
+  height: 400px !important;
+}
+.glass-content::-webkit-scrollbar {
+  display: none;
+}
 /*************************************** PAGES ***************************************/
 
 /* ---------- General ---------- */
