@@ -275,6 +275,13 @@ font-weight: 800;
 .sub-links a:hover{
   border-bottom: 1px solid #2F4F4F;
 }
+ul{
+  padding:5px;
+  margin:0;
+}
+li{
+  list-style: none;
+}
 /*************************************** PAGES ***************************************/
 
 /* ---------- General ---------- */
