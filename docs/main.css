@@ -89,7 +89,7 @@ header{
 }
 
 #catalog{
-    margin-top: 20%;
+    margin-top: 10%;
     height:600px;
     text-align: center;
     color:white;
@@ -98,7 +98,7 @@ header{
 #catalog h2{
     font-size: 4rem;
     text-shadow: 2px 2px black;
-    padding:50px;
+    padding:40px;
 }
 .cat-item{
     background-color: #301E67;
