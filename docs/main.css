@@ -217,15 +217,18 @@ footer{
   height:600px;
   text-align: center;
 }
+
 .otherSites h1{
   padding:10px;
 }
+
 .otherSites .row{
   display: flex;
   gap:10px;
   align-items: center;
   justify-content: center;
 }
+
 .glassCases{
     /* From https://css.glass */
   background: rgba(255, 255, 255, 0.2);
@@ -237,6 +240,7 @@ footer{
   height:400px;
   width:200px;
 }
+
 .glassCases h3{
 padding:15px;
 font-size: 18px;
