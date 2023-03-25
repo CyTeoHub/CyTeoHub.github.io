@@ -238,7 +238,7 @@ footer{
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   height:400px;
-  width:200px;
+  width:250px;
 }
 
 .glassCases h3{
@@ -256,6 +256,10 @@ font-weight: 800;
 }
 .glass-content::-webkit-scrollbar {
   display: none;
+}
+
+.glass-content ul a:hover{
+  color:#DE3163;
 }
 
 .sub-links{
