@@ -380,3 +380,22 @@ li{
   border-radius: 10px;
   border-image: linear-gradient(to right, #f43b47 0%, #453a94 100%)1;
 }
+
+.contacts{
+  display: flex;
+  gap:15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactquicks{
+  background-color: #3813C2;
+  color:#c2e9fb;
+  padding:20px;
+  border-radius: 5px;
+}
+.contactquicks:hover{
+  background-color: #D4ADFC;
+  color:#4C3D3D;
+}
+
