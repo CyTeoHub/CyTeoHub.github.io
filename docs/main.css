@@ -399,3 +399,8 @@ li{
   color:#4C3D3D;
 }
 
+#classSchedule{
+  width:250px;
+  height: 250px;
+  border-radius: 10px;
+}
