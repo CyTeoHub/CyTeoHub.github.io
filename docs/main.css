@@ -365,9 +365,33 @@ li{
   align-items: center;
   }
 
+  .glass-container2{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width:500px;
+    height:500px;
+    position:fixed;
+    left:30%;
+    overflow-y: scroll;
+    text-align: center;
+  }
+
+  .glass-container2 p{
+    padding:15px;
+  }
+
 .glass-container::-webkit-scrollbar {
     display: none;
 }
+
+.glass-container2::-webkit-scrollbar {
+  display: none;
+}
+
 .image-glass{
   width:80px;
   height:80px;
@@ -403,4 +427,11 @@ li{
   width:800px;
   height: 500px;
   border-radius: 10px;
+}
+
+.sub-container{
+  display: flex;
+  gap:15px;
+  justify-content: center;
+  align-items: center;
 }
