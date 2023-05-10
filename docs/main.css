@@ -30,8 +30,7 @@ body{
   height:50px;
   padding:10px;
   border-radius: 5px;
-}
-.apps{
+  background-color: #C1D0B5;
 
 }
 .app-link:hover{
