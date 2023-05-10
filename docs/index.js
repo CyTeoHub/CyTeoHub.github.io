@@ -22,3 +22,14 @@ function updateClock() {
   const day = moment().format('dddd');    
   const currentTimeElement_Date = document.getElementById('current-date');
   currentTimeElement_Date.innerHTML = dateNow +' | '+ day
+
+  function search() {
+    // Get the input value
+    var searchQuery = document.getElementById("search-query").value;
+
+    // Construct the Google search URL
+    var googleSearchUrl = "https://www.google.com/search?q=" + encodeURIComponent(searchQuery);
+
+    // Open the search results in a new tab
+    window.open(googleSearchUrl, "_blank");
+  }
