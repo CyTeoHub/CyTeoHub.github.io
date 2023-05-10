@@ -23,7 +23,7 @@ body{
 }
 #search-query{
   width:300px;
-  height:300px;
+  height:100px;
   border-radius: 10px;
 }
 .apps{
