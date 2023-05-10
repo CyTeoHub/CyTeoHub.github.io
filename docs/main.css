@@ -94,9 +94,9 @@ a{
 }
 
 header h1{
-    padding:50px;
+    padding:30px;
     font-size: 5em;
-    margin-top: 5%;
+    margin-top: 3%;
     user-select: none;
 }
 
@@ -109,6 +109,7 @@ header h1:hover{
 header{
     text-align: center;
     height:800px;
+    margin:0;
 }
 
 .catalogueBtn{
