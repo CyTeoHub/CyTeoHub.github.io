@@ -41,7 +41,9 @@ body{
   height:50px;
   padding:10px;
   border-radius: 5px;
-  background-color: #C1D0B5;
+  background-color: #54577c;
+  color:#faffd8;
+  font-weight: 500;
 
 }
 .app-link:hover{
