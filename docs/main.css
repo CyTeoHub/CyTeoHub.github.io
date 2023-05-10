@@ -46,6 +46,7 @@ body{
   font-weight: 500;
 
 }
+
 .app-link:hover{
 border-bottom: 3px solid black;
 }
@@ -61,11 +62,13 @@ border-bottom: 3px solid black;
   height: 80px;
   border-radius: 5px;
 }
+
 .iframes{
   width:1100px;
   height:800px;
   border:none;
 }
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -96,14 +99,16 @@ header h1{
     margin-top: 10%;
     user-select: none;
 }
+
 header h1:hover{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
 }
+
 header{
     text-align: center;
-    height:500px;
+    height:600px;
 }
 
 .catalogueBtn{
