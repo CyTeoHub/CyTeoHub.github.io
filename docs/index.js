@@ -33,3 +33,14 @@ function updateClock() {
     // Open the search results in a new tab
     window.open(googleSearchUrl, "_blank");
   }
+
+  function searchImage() {
+    // Get the input value
+    var searchQuery = document.getElementById("search-queryImage").value;
+
+    // Construct the Google Images search URL
+    var googleImagesUrl = "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(searchQuery);
+
+    // Open the image search results in a new tab
+    window.open(googleImagesUrl, "_blank");
+}
