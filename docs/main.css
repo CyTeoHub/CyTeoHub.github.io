@@ -26,6 +26,10 @@ body{
   height:60px;
   border-radius: 10px;
 }
+.searchBtn{
+  height:50px;
+  padding:10px;
+}
 .apps{
 
 }
