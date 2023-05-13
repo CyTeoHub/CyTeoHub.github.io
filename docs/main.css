@@ -138,10 +138,10 @@ header{
 }
 .cat-item{
     background-color: #301E67;
-    padding:15px;
+    padding:10px;
     color:white;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .cat-item:hover{
     background-color: #0E8388;
@@ -153,7 +153,20 @@ header{
     align-items: center;
     flex-wrap: wrap;
     width:97%;
+      background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  overflow-y: scroll;
 }
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+
 footer{
     position:fixed;
     bottom:0;
